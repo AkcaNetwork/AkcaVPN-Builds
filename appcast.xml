@@ -1,34 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>AkcaVPN Updates</title>
-    <link>https://akcavpn.com</link>
-    <description>Most recent updates for AkcaVPN macOS</description>
-    <language>en</language>
+  <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">                      
+    <channel>
+      <title>AkcaVPN Updates</title>                                                                                                                       
+      <link>https://akcavpn.com</link>   
+      <description>Most recent updates for AkcaVPN macOS</description>
+      <language>en</language>
 
-    <item>
-      <title>AkcaVPN 1.0.0</title>
-      <description><![CDATA[
-        <h2>AkcaVPN 1.0.0</h2>
-        <p>Initial release of AkcaVPN for macOS.</p>
-        <ul>
-          <li>Native macOS app with System Extension VPN</li>
-          <li>WireGuard protocol support</li>
-          <li>Multi-server support with auto-selection</li>
-          <li>Kill switch</li>
-          <li>Menu bar quick controls</li>
-        </ul>
-      ]]></description>
-      <pubDate>Wed, 25 Feb 2026 21:54:43 +0000</pubDate>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://github.com/AkcaNetwork/AkcaVPN-Builds/releases/download/macos-v1.0.0/AkcaVPN-1.0.0-arm64.dmg"
-        sparkle:edSignature="TNWRcy1U1GL9D1Sd3LqM18hvhwXN/0hVfDwDUcD6qBMP8+P6QPkxxPk+n5a8vNCSG8jhpSrotzJzcXSoL1Y2Bw=="
-        length="3181967"
-        type="application/octet-stream" />
-    </item>
+      <item>
+        <title>AkcaVPN 1.2.0</title>
+        <description><![CDATA[
+          <h2>AkcaVPN 1.2.0</h2>
+          <ul>
+            <li>AmneziaWG DPI obfuscation support</li>
+            <li>Client-side ping measurement for auto server selection</li>
+            <li>Bug fixes and improvements</li>
+          </ul>
+        ]]></description>
+        <pubDate>Tue, 04 Mar 2026 21:10:00 +0300</pubDate>
+        <sparkle:version>3</sparkle:version>
+        <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <enclosure
+          url="https://github.com/AkcaNetwork/AkcaVPN-Builds/releases/download/macos-v1.2.0/AkcaVPN-1.2.0-arm64.dmg"
+          sparkle:edSignature="A1zwUOPVxanuHwPXGCuwJNxsj2FsmCuSsU8qRUWzELCzlYgL97Ngq6Zc9TSi87D0Kgn3r03tXk77o719wAExDQ=="
+          length="4288639"
+          type="application/octet-stream" />
+      </item>
 
-  </channel>
-</rss>
+      <item>
+        <title>AkcaVPN 1.0.0</title>
+        <description><![CDATA[
+          <h2>AkcaVPN 1.0.0</h2>
+          <p>Initial release of AkcaVPN for macOS.</p>
+          <ul>
+            <li>Native macOS app with System Extension VPN</li>
+            <li>WireGuard protocol support</li>
+            <li>Multi-server support with auto-selection</li>
+            <li>Kill switch</li>
+            <li>Menu bar quick controls</li>
+          </ul>
+        ]]></description>
+        <pubDate>Wed, 25 Feb 2026 21:54:43 +0000</pubDate>
+        <sparkle:version>1</sparkle:version>
+        <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <enclosure
+          url="https://github.com/AkcaNetwork/AkcaVPN-Builds/releases/download/macos-v1.0.0/AkcaVPN-1.0.0-arm64.dmg"
+          sparkle:edSignature="TNWRcy1U1GL9D1Sd3LqM18hvhwXN/0hVfDwDUcD6qBMP8+P6QPkxxPk+n5a8vNCSG8jhpSrotzJzcXSoL1Y2Bw=="
+          length="3181967"
+          type="application/octet-stream" />
+      </item>
+
+    </channel>
+  </rss>

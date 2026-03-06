@@ -20,11 +20,11 @@
         <sparkle:version>3</sparkle:version>
         <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
         <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-        <enclosure
-          url="https://github.com/AkcaNetwork/AkcaVPN-Builds/releases/download/macos-v1.2.0/AkcaVPN-1.2.0-arm64.dmg"
-          sparkle:edSignature="A1zwUOPVxanuHwPXGCuwJNxsj2FsmCuSsU8qRUWzELCzlYgL97Ngq6Zc9TSi87D0Kgn3r03tXk77o719wAExDQ=="
-          length="4288639"
-          type="application/octet-stream" />
+        <enclosure                                                                                                                              
+      url="https://github.com/AkcaNetwork/AkcaVPN-Builds/releases/download/macos-v1.2.0/AkcaVPN-1.2.0-arm64.dmg"
+      sparkle:edSignature="xSO1VK0fALEYTCSL5hdGZsKAuY5Up4+YnLQxcN1Gdd3d1glN2rFd/NO0RUMnOqNhhm7fVtBcXUWuA1MY7JzDDw=="                      
+      length="4290142"                                                                                                                    
+      type="application/octet-stream" />
       </item>
 
       <item>
